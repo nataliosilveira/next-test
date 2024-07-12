@@ -102,7 +102,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="">
+    <main>
       <div className="grid grid-cols-2 gap-4">
         <CardTable title="List years with multiple winners">
           <RegularTable tableTitle={['year', 'win count']}>

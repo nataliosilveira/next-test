@@ -7,7 +7,7 @@ describe('GET API Route', () => {
   it('should return data with status 200', async () => {
     const requestObj = {
       nextUrl: {
-        searchParams: new URLSearchParams({ year: '1998', winner: 'true', page: '0' }),
+        searchParams: new URLSearchParams({ year: '1998', winner: 'true', page: '0', size: '10' }),
       },
     } as any;
     const response = await GET(requestObj);

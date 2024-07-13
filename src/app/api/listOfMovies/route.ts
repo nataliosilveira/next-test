@@ -1,6 +1,7 @@
 import { NextResponse, NextRequest } from 'next/server';
 import axios from 'axios';
 import queryString from 'query-string';
+
 export async function GET(data: NextRequest) {
   const year = await data.nextUrl.searchParams.get('year');
   const winner = await data.nextUrl.searchParams.get('winner');

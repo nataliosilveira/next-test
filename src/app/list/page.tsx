@@ -125,8 +125,8 @@ export default function List() {
             </table>
           </div>
 
-          <nav className="flex items-cente justify-center mt-4">
-            <ul className="inline-flex -space-x-px text-sm">
+          <nav className="flex flex-wrap  items-cente justify-center mt-4">
+            <ul className="w-full md:inline-flex md:w-auto text-sm">
               <li>
                 <button
                   onClick={() => {
